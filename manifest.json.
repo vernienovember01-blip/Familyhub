@@ -1,0 +1,13 @@
+
+{
+  "name": "FamilyHub",
+  "short_name": "FamilyHub",
+  "description": "Our family, connected in one place.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f7f5",
+  "theme_color": "#176b55",
+  "orientation": "portrait",
+  "icons": []
+}
