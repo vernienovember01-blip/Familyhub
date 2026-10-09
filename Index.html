@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#176b55">
+  <title>FamilyHub</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f3f7f5;
+      color: #20352d;
+    }
+    header {
+      background: #176b55;
+      color: white;
+      padding: 26px 18px;
+    }
+    header h1 { margin: 0 0 8px; }
+    header p { margin: 0; }
+    main { padding: 18px; max-width: 800px; margin: auto; }
+    #status {
+      padding: 12px;
+      border-radius: 8px;
+      background: #e2eee8;
+      margin-bottom: 20px;
+      overflow-wrap: anywhere;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .tile {
+      background: white;
+      padding: 20px 12px;
+      border-radius: 12px;
+      box-shadow: 0 2px 7px #0000000c;
+      text-align: center;
+      font-size: 16px;
+    }
+    .emoji { display: block; font-size: 30px; margin-bottom: 10px; }
+    footer { text-align: center; padding: 24px; color: #61736a; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>👨‍👩‍👧‍👦 FamilyHub</h1>
+    <p>Our family, connected in one place.</p>
+  </header>
+
+  <main>
+    <h2>Welcome to FamilyHub</h2>
+    <p>Keep up with family news, events and plans.</p>
+
+    <div id="status">Supabase connection: not configured yet.</div>
+
+    <div class="grid">
+      <div class="tile"><span class="emoji">👥</span>Members</div>
+      <div class="tile"><span class="emoji">🎉</span>Birthdays</div>
+      <div class="tile"><span class="emoji">📅</span>Events</div>
+      <div class="tile"><span class="emoji">🏖️</span>Vacation Trips</div>
+      <div class="tile"><span class="emoji">📰</span>Family News</div>
+      <div class="tile"><span class="emoji">🛍️</span>Marketplace</div>
+      <div class="tile"><span class="emoji">💼</span>Businesses</div>
+      <div class="tile"><span class="emoji">📸</span>Pictures</div>
+      <div class="tile"><span class="emoji">💡</span>Suggestions</div>
+      <div class="tile"><span class="emoji">📍</span>Addresses</div>
+    </div>
+  </main>
+
+  <footer>FamilyHub · Bringing our family together</footer>
+</body>
+</html>
